@@ -39,12 +39,10 @@ javascript:(function(){
     $("#chkWeakness").attr('checked', true);
     $("#chkAbnormalGait").attr('checked', true);
     $("#rdblst_gripStr_2").attr('checked', true);
-    $("#chkAssistiveDevice").attr('checked', true);
-    $("#txtAssistiveDevice").val("Walker");                         // Set text field
     $("#chkFallPrecautions").attr('checked', true);
 
     // Emotional status
-    $("#txtOtherEmotionalStatus").val("Appropriate for situation");
+    $("#txtOtherEmotionalStatus").val("Appropriate for situation");                         // Set text field
 
     // Pain, Infusion, Endocrine
     $("#rdblst_painFreq_0").attr('checked', true);
