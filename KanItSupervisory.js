@@ -36,4 +36,14 @@ javascript:(function(){
     // Signature
     $("#Chk_Signature").attr('checked', true);
 
+    // Routine form
+    $("#rdblst_supRNAide_1").attr('checked', true);
+    $("#rdblst_supPresNot_1").attr('checked', true);
+    $("#rdblst_supVisit_0").attr('checked', true);
+    $("#chkSpoketoPatient").attr('checked', true);
+    $("#chkHHAfollowingPOC").attr('checked', true);
+    $("#chkGoalsbeingmet").attr('checked', true);
+    $("#rad_ProgressGoals_0").attr('checked', true);
+    $("#rad_GoalsRevised_1").attr('checked', true);
+
 })();
