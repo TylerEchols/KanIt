@@ -58,6 +58,7 @@ javascript:(function(){
     // Digestive system
     $("#drpBowelSound").val("4");
     $("#drpLastBM").val("1");
+    $("#drpLastBM").trigger("change");
     $("#chkMealsPrepared").attr('checked', true);
     $("#chkDiet").attr('checked', true);
     $("#txtDiet").val("Regular");

@@ -33,9 +33,6 @@ javascript:(function(){
     $("#rdblst_ques21_2").attr('checked', true);
     $("#rdblst_ques22_2").attr('checked', true);
 
-    // Signature
-    $("#Chk_Signature").attr('checked', true);
-
     // Routine form
     $("#rdblst_supRNAide_1").attr('checked', true);
     $("#rdblst_supPresNot_1").attr('checked', true);
