@@ -42,12 +42,17 @@ javascript:(function(){
     $("#chkFallPrecautions").attr('checked', true);
 
     // Emotional status
-    $("#txtOtherEmotionalStatus").val("Appropriate for situation");                         // Set text field
+    $("#txtOtherEmotionalStatus").val("Appropriate for situation");               // Set text field
 
     // Pain, Infusion, Endocrine
-    $("#rdblst_painFreq_0").attr('checked', true);
+    $("#rdblst_painFreq_3").attr('checked', true);
     $("#chk_Infusion_NA").attr('checked', true);
     $("#chk_Endocrine_NA").attr('checked', true);
+
+    // Pain sub-form
+    $("#txt_Outcome").val("Patient denies pain at this visit");
+    $("#rdbCP_0").attr('checked', true);
+    $("#txt_PainImpact").val("Decreased activity and ambulation with increased pain, which increases skin and pneumonia risks");
 
     // Skin system
     $("#rdb_WoundNo").attr('checked', true);
@@ -58,7 +63,7 @@ javascript:(function(){
     // Digestive system
     $("#drpBowelSound").val("4");
     $("#drpLastBM").val("1");
-    $("#drpLastBM").trigger("change");
+    $("#drpLastBM").trigger("change");                               // Trigger event for handlers and watchers
     $("#chkMealsPrepared").attr('checked', true);
     $("#chkDiet").attr('checked', true);
     $("#txtDiet").val("Regular");
