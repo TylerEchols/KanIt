@@ -3,7 +3,8 @@
  */
 javascript:(function(){
     // Header
-    $("#chklst_IncidentReported_1").attr('checked', true);          // Check box or radio button = checked
+    $("#chk_GCodeConfirmed").attr('checked', true);          // Check box or radio button = checked
+    $("#chklst_IncidentReported_1").attr('checked', true);
     $("#chklst_PatientIdentification_0").attr('checked', true);
     $("#chklst_PatientIdentification_6").attr('checked', true);
     $("#chklst_PatientIdentification_7").attr('checked', true);
@@ -50,6 +51,13 @@ javascript:(function(){
     $("#chk_Endocrine_NA").attr('checked', true);
 
     // Pain sub-form
+    $("#rdbPainRelief_1").attr('checked', true);
+    $("#rdbMedicationAdequate_1").attr('checked', true);
+    $("#chk_PainWorse_2").attr('checked', true);
+    $("#chk_PainBetter_3").attr('checked', true);
+    $("#chk_PainBetter_4").attr('checked', true);
+    $("#chk_PainBetter_6").attr('checked', true);
+    $("#chk_PainBetter_7").attr('checked', true);
     $("#txt_Outcome").val("Patient denies pain at this visit");
     $("#rdbCP_0").attr('checked', true);
     $("#txt_PainImpact").val("Decreased activity and ambulation with increased pain, which increases skin and pneumonia risks");
